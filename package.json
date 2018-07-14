@@ -1,0 +1,41 @@
+{
+  "name": "irt-flow-designer",
+  "version": "1.0.0",
+  "description": "flow designer for inspur robot platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xujinyuan/iFlowDesigner.git"
+  },
+  "keywords": [
+    "flow",
+    "designer"
+  ],
+  "author": "xujy",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Xujinyuan/iFlowDesigner/issues"
+  },
+  "homepage": "https://github.com/Xujinyuan/iFlowDesigner#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.7.0",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
