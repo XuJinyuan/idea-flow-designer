@@ -1,4 +1,7 @@
 # IRT-Flow-Designer
+
+## IRT WEB端 流程设计器
+
 ### 1.介绍
     使用Ecmascript 6实现的流程设计器,基础版本
 
@@ -15,7 +18,7 @@
     运行脚本可参考 package.json
 
     例:
-        > $npm run dev -开发版本运行
+    > $npm run dev -开发版本运行
 
 
 ### 3.常见问题
