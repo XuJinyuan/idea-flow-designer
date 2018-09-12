@@ -7,7 +7,7 @@
     "test": "test",
     "start": "webpack",
     "dev": "webpack-dev-server",
-    "build":"webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
