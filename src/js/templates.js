@@ -1,5 +1,5 @@
-const template = {
-    template:
+export default {
+  template:
     "  <div id=\"template\">\n" +
     "    <span>基础信息</span>\n" +
     "    <fieldset>\n" +
@@ -30,5 +30,4 @@ const template = {
     "      <button class=\"btn\" @click='data.name+=\"T\"'>新增连接线</button>\n" +
     "    </fieldset>\n" +
     "  </div>",
-}
-export default template;
+};

@@ -1,10 +1,10 @@
-# IRT-Flow-Designer
+# idea-flow-designer
 
-## IRT WEB端 流程设计器
+## 纯HTML+JS实现的流程设计器（A Flow Designer based on html5 and js）
 
 ### 1.介绍
 
-    使用Ecmascript 6实现的流程设计器（基础版本）
+    使用ES6实现的流程设计器（基础版本）
     基于HTML的网页版流程设计器,可实现流程的设计与导出
     导出及导入数据格式为JSON，节点信息可自定义，节点列表也可自定义
     此版本为非稳定版本
@@ -15,25 +15,20 @@
    
 ### 2.使用方法
 
-clone之后进入根目录
-
-运行
-    
 ```
-$ git clone {code}
-$ cd {目录名称}
-$ $npm install
-//安装npm依赖
-//运行脚本可参考 package.json
+$ git clone {code}      //clone代码至本地
+$ cd idea-flow-designer
+$ npm install           //安装项目依赖  
+$ npm run dev           //以开发模式运行程序
 
 ```
-    
-运行代码
+用Chrome/FireFox等现代浏览器打开[http://localhost:9000](http://localhost:9000)即可使用
+### 3.构建生产版本
+```
+$ npm run build         //构建生产模式的代码
+```
 
-```
-$ $npm run dev -开发版本运行
-```
-用浏览器打开[http://localhost:9000](http://localhost:9000)即可
 ### 3.常见问题
 
 - 暂不支持IE系列浏览器
+
