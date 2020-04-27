@@ -1,6 +1,6 @@
 # idea-flow-designer
 
-## 纯HTML+JS实现的流程设计器（A Flow Designer based on html5 and js）
+## 纯HTML+JS实现的流程设计器（A flow designer based on html5 and js）
 
 ### 1.介绍
 
